@@ -1,0 +1,19 @@
+{
+  "name": "sw-plivo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sscotth/plivo"
+  },
+  "author": "Scott <scott@sscotth.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sscotth/plivo/issues"
+  },
+  "homepage": "https://github.com/sscotth/plivo"
+}
