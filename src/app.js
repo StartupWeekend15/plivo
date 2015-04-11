@@ -39,6 +39,10 @@ var server = app.listen(process.env.PORT || 3000, function () {
   console.log('App listening at http://%s:%s', host, port);
 });
 
+function getRandomInfo(req, cb) {
+  // req = {zip, distance, genre}
+}
+
 function sendSMS(destination, cb) {
 
   var params = {
