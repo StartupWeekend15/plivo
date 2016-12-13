@@ -39,6 +39,20 @@ var server = app.listen(process.env.PORT || 3000, function () {
   console.log('App listening at http://%s:%s', host, port);
 });
 
+function parseSMS(text) {
+  var zip = text.match('[0-9]{5}(?:-[0-9]{4})?');
+
+
+
+  return {
+    zip: zip,
+    genre: genre,
+    distance
+  }
+
+
+}
+
 function getRandomInfo(req, cb) {
   // req = {zip, distance, genre}
 }
